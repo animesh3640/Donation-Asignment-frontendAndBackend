@@ -1,0 +1,39 @@
+Also communicate the candidates to timebox this to a max of 6 hours.
+
+------------------------------------------
+Your application should allow users to view and manage their donations, and it should send a special thank you message if a user makes 2 or more donations.
+
+Functional Requirements
+Build a full-stack web application with the following features:
+
+Backend (Node.js)
+Create a Node.js backend that exposes the following RESTful API endpoints:
+GET /donations: Retrieve a list of all donations made by the user.
+POST /donations: Add a new donation for the user.
+GET /thankyou: Check if the user has made 2 or more donations and send them a special thank you message.
+Additional Logic:
+Implement logic to count the number of donations made by a user.
+If a user has made 2 or more donations, send them a special thank you message (you can simulate this by logging a message).
+Use TypeScript for your Node.js application.
+
+Frontend (React)
+Create a React frontend that interacts with the backend API.
+A homepage that displays the user's donation history.
+A page to make a new donation.
+Allow users to view their donation history and make new donations through the frontend.
+Display the special thank you message from the backend if the user qualifies.
+Use TypeScript for your React application.
+
+GitHub Repository
+Provide your solution as a GitHub repository with the following contents:
+Source code for both the backend and frontend.
+Adequate tests (optional but highly encouraged).
+If you didn't complete the test, explain how you would intend to finalize it in the README.
+Rules and Additional Information
+Keep the implementation simple and follow best practices for web development.
+You are not required to implement authentication or authorization for this task.
+You can use an in-memory store for donations data or choose a specific data store of your preference.
+While the solution is not expected to be production-ready, basic error handling is required.
+You can use cloud services if it fits your architecture.
+Submission
+Please send us the link to your GitHub repository when you have completed the assignment.
